@@ -114,3 +114,32 @@
 
     37. Walk me through Lambda's git flow. 
       Your going to start by cloning then making a branch for you to edit and work on locally. Commit your changes often. When ready you push your changes to your branch on github, create a pull request, if every thing is good, your branch is merged into master. You may be asked to make some changes before your branch is merged in. 
+
+
+STRETCH:
+
+1. What is the difference between an inline element and a block element?
+  An inline element doesnt take up the whole line so elements can sit next to it. Width doesnt effect inline elements. Block elements take up their own line, width is respected.
+
+2. What happens when an element is positioned absolutely? 
+  The elements position will be relative to its parent element. It can be positioned anywhere using top, bottom, left and right.
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+  inline-block
+
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default.
+  block:
+    h1-h6
+    p
+    div
+
+  inline:
+    span 
+    code
+
+  inline-block:
+    button
+
+5. In your own words, explain the box model. What is the fix for the box model?
+  The box model surrounds every element(although some dont accept padding) from the outside in it goes margin(space around the box), border(border of the box), padding(space inside the box, around content), then you have your actual content.
+  You can do the css reset, box-sizing: border-box;
